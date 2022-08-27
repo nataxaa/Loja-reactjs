@@ -35,8 +35,8 @@ de compra foi feito com Modal, contexto e styled-components.
 ## 🌐 Preview
 
 <h1 align="center">
-    <img src="github/loja1.png" width="400px"/>
-    <img src="github/loja2.png" width="400px"/>
+    <img src="github/loja.png" width="600px"/>
+    <img src="github/loja2.png" width="600px"/>
 </h1>
 
 ## 🚀 Tecnologias
@@ -47,6 +47,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Typescript](https://www.typescriptlang.org/)
 - [Styled Components](https://styled-components.com/)
 - [Context](https://pt-br.reactjs.org/docs/context.html)
+- [Modal](https://www.npmjs.com/package/react-modal)
 
 
 <br />
