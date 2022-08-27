@@ -6,18 +6,14 @@ import {products} from '../../Data/Data'
 import { useContext } from "react";
 import { CartContext } from "../../Context/cart";
 
-
 interface headerProps{
     onOpenModal:()=>void;
 }
 
-
 export function Home<Props>({onOpenModal}:headerProps){
     const prod = products;
     console.log(prod)
-
     const {quant}:any = useContext(CartContext)
-   
 
     return(
         <Container>

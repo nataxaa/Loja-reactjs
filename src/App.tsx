@@ -5,7 +5,6 @@ import { products } from './Data/Data';
 import { ShopCartModal } from './components/shopCartModal';
 
 export function App() {
-
   const [newModal, setNewModal] = useState(false)
 
  function handleOpenNewModal(){
@@ -15,26 +14,16 @@ export function App() {
     setNewModal(false)
 }
 
-
-
   return (
     <div className="App">
-      
-
       <CartProvider>
-
-
        <Home
-       
         onOpenModal={handleOpenNewModal}
        />
-
        <ShopCartModal
        isOpen={newModal} 
        onRequestClose={handleCloseNewModal}
        />
-
-
       </CartProvider>
     </div>
   );

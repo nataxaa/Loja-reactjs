@@ -1,7 +1,4 @@
 import { createContext, useContext, useState } from "react";
-
-
-
 interface itemProps{
     id: number,
     name: string,
@@ -9,8 +6,6 @@ interface itemProps{
     image: string,
     qtd: number
 } 
-
-
 export const CartContext = createContext({});
 
 export default function CartProvider({ children }:any){
